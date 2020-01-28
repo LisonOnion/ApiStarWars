@@ -1,0 +1,60 @@
+body {
+	background-image: url("../img/sky.jpg");
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+#gentil {
+	background-image: url("../img/jeej.png");
+	background-size: cover;
+
+}
+
+#mechant {
+	background-image: url("../img/mechant.png");
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+header div {
+	height: 50vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+img {
+	height: 30vw;
+	width: 30vw;
+	
+}
+
+#tableau {
+	color: yellow;
+	font-family: 'Pathway Gothic One', sans-serif;
+}
+
+thead {
+	text-align: center;
+	font-size: 18pt;
+}
+
+tr {
+	text-align: center;
+}
+
+.bounceIn:hover{
+	animation-name: bounceIn;
+  }
+
+#bouton {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
