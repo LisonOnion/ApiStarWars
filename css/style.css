@@ -5,6 +5,30 @@ body {
 	width: 100vw;
 }
 
+ul {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	list-style: none;
+	justify-content: space-around;
+}
+
+a:visited {
+	color: yellow;
+
+}
+
+a:hover {
+	color: yellow;
+}
+
+li {
+	color: yellow;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 24pt;
+	
+}
+
 #gentil {
 	background-image: url("../img/jeej.png");
 	background-size: cover;
@@ -20,7 +44,7 @@ body {
 }
 
 header div {
-	height: 50vh;
+	height: 80vh;
 	width: 100vw;
 	display: flex;
 	flex-direction: row;
@@ -50,7 +74,7 @@ tr {
 }
 
 .bounceIn:hover{
-	animation-name: bounceIn;
+	animation-name: bounceIn 1s 1;
   }
 
 #bouton {
